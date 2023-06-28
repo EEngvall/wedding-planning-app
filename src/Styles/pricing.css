@@ -1,0 +1,35 @@
+.pricing-model {
+  background-color: rgb(252, 174, 174);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+.pricing-model.larger {
+  background-color: rgb(255, 137, 137);
+  height: 300px;
+}
+
+.tier-title {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price {
+  color: #28a745;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-model ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-model ul li {
+  margin-bottom: 10px;
+}

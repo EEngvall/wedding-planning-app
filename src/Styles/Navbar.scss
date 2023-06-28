@@ -1,0 +1,16 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+// Include any default variable overrides here (though functions won't be available)
+$primary: rgb(255, 234, 221);
+$secondary: rgb(252, 174, 174);
+$info: rgb(255, 137, 137);
+$success: rgb(255, 102, 102);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
