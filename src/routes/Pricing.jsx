@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import PricingTier from "../components/pricingTier";
 import "../Styles/pricing.css";
 
@@ -12,14 +12,14 @@ const PricingPage = () => {
       isLarger: false,
     },
     {
-      title: "Tier 3",
-      price: "$19.99/month",
+      title: "Tier 2",
+      price: "$14.99/month",
       features: ["Feature 1", "Feature 2", "Feature 3"],
       isLarger: true,
     },
     {
-      title: "Tier 2",
-      price: "$14.99/month",
+      title: "Tier 3",
+      price: "$19.99/month",
       features: ["Feature 1", "Feature 2", "Feature 3"],
       isLarger: false,
     },
@@ -28,9 +28,9 @@ const PricingPage = () => {
   return (
     <Container>
       <h2 className="text-center mb-4">Pricing</h2>
-      <Row className="justify-content-center">
+      <Row>
         {tiers.map((tier, index) => (
-          <Col sm={4} className="text-center" key={index}>
+          <Col md={4} key={index}>
             <PricingTier {...tier} />
           </Col>
         ))}

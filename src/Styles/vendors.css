@@ -1,0 +1,7 @@
+.vendor-card {
+  transition: transform 0.3s;
+}
+
+.vendor-card:hover {
+  transform: scale(1.05);
+}

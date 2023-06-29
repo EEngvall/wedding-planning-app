@@ -18,7 +18,7 @@
 }
 
 .price {
-  color: #28a745;
+  color: rgb(252, 174, 174);
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -32,4 +32,12 @@
 
 .pricing-model ul li {
   margin-bottom: 10px;
+}
+
+.pricing-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+  transform: scale(1.1);
 }

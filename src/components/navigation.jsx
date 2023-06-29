@@ -29,8 +29,11 @@ const WelcomePage = () => {
             <Nav.Link to="/booking" className="mx-3" href="/booking">
               Booking
             </Nav.Link>
-            <Nav.Link to="reviews" className="ms-3" href="/reviews">
+            <Nav.Link to="/reviews" className="ms-3" href="/reviews">
               Reviews
+            </Nav.Link>
+            <Nav.Link to="/vendors" className="ms-3" href="/vendors">
+              Vendors
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
