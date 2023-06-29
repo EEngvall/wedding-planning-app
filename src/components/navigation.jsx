@@ -35,6 +35,9 @@ const WelcomePage = () => {
             <Nav.Link to="/vendors" className="ms-3" href="/vendors">
               Vendors
             </Nav.Link>
+            <Nav.Link to="/vendorSignUp" className="ms-3" href="/vendorSignUp">
+              Vendor Signup
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

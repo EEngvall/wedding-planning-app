@@ -8,8 +8,9 @@ import Booking from "./routes/Booking";
 import "../src/Styles/Navbar.css";
 import "./App.css";
 import Reviews from "./routes/Reviews";
-import Vendors from "./routes/Vendors";
+import Vendors from "./routes/Vendors.jsx";
 import LandingPage from "./components/landingPage";
+import VendorSignUpPage from "./routes/VendorSignUpPage";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route path="booking" element={<Booking />} />
         <Route path="reviews" element={<Reviews />} />
         <Route path="vendors" element={<Vendors />} />
-        <Route path="personalProjects" />
+        <Route path="vendorSignUp" element={<VendorSignUpPage />} />
       </Routes>
     </BrowserRouter>
   );
